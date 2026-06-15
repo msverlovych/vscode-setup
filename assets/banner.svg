@@ -1,0 +1,87 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="vscode-setup — my VS Code settings: Catppuccin Mocha, JetBrains Mono, format-on-save">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#181825"/>
+      <stop offset="1" stop-color="#11111b"/>
+    </linearGradient>
+    <radialGradient id="glowMauve" cx="300" cy="120" r="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cba6f7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#cba6f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="950" cy="300" r="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#89b4fa" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#89b4fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="84" y1="0" x2="514" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5c2e7"/>
+      <stop offset="0.5" stop-color="#cba6f7"/>
+      <stop offset="1" stop-color="#89b4fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base + atmosphere -->
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#glowMauve)"/>
+  <rect width="1280" height="360" fill="url(#glowBlue)"/>
+
+  <!-- eyebrow -->
+  <text x="84" y="106" font-family="ui-monospace,'JetBrains Mono','SF Mono',Menlo,monospace" font-size="13" font-weight="600" letter-spacing="3" fill="#7f849c">VISUAL STUDIO CODE · SETTINGS</text>
+
+  <!-- title -->
+  <text x="80" y="172" font-family="ui-monospace,'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="58" font-weight="700" letter-spacing="-1">
+    <tspan fill="#cdd6f4">vscode</tspan><tspan fill="#cba6f7">-setup</tspan>
+  </text>
+  <rect x="84" y="192" width="430" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- subtitle -->
+  <text x="86" y="234" font-family="ui-monospace,'JetBrains Mono','SF Mono',Menlo,monospace" font-size="20" fill="#a6adc8">Catppuccin Mocha · JetBrains Mono · format-on-save</text>
+
+  <!-- catppuccin palette dots -->
+  <g>
+    <circle cx="92" cy="272" r="7" fill="#f5e0dc"/>
+    <circle cx="122" cy="272" r="7" fill="#f5c2e7"/>
+    <circle cx="152" cy="272" r="7" fill="#cba6f7"/>
+    <circle cx="182" cy="272" r="7" fill="#f38ba8"/>
+    <circle cx="212" cy="272" r="7" fill="#fab387"/>
+    <circle cx="242" cy="272" r="7" fill="#f9e2af"/>
+    <circle cx="272" cy="272" r="7" fill="#a6e3a1"/>
+    <circle cx="302" cy="272" r="7" fill="#94e2d5"/>
+    <circle cx="332" cy="272" r="7" fill="#89dceb"/>
+    <circle cx="362" cy="272" r="7" fill="#74c7ec"/>
+    <circle cx="392" cy="272" r="7" fill="#89b4fa"/>
+    <circle cx="422" cy="272" r="7" fill="#b4befe"/>
+  </g>
+
+  <!-- editor window -->
+  <rect x="688" y="56" width="520" height="256" rx="14" fill="#1e1e2e" stroke="#313244"/>
+  <!-- title bar -->
+  <circle cx="712" cy="84" r="5.5" fill="#f38ba8"/>
+  <circle cx="730" cy="84" r="5.5" fill="#f9e2af"/>
+  <circle cx="748" cy="84" r="5.5" fill="#a6e3a1"/>
+  <rect x="784" y="70" width="158" height="29" rx="7" fill="#313244"/>
+  <text x="800" y="89" font-family="ui-monospace,'JetBrains Mono',Menlo,monospace" font-size="13"><tspan fill="#cba6f7">{}</tspan><tspan fill="#bac2de"> settings.json</tspan></text>
+  <line x1="688" y1="112" x2="1208" y2="112" stroke="#313244"/>
+
+  <!-- code -->
+  <g font-family="ui-monospace,'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="16">
+    <!-- line numbers -->
+    <g fill="#585b70" text-anchor="end">
+      <text x="726" y="148">1</text>
+      <text x="726" y="180">2</text>
+      <text x="726" y="212">3</text>
+      <text x="726" y="244">4</text>
+      <text x="726" y="276">5</text>
+      <text x="726" y="308">6</text>
+    </g>
+    <!-- code lines -->
+    <text x="746" y="148" fill="#9399b2">{</text>
+    <text x="770" y="180"><tspan fill="#89b4fa">"workbench.colorTheme"</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#a6e3a1">"Catppuccin Mocha"</tspan><tspan fill="#9399b2">,</tspan></text>
+    <text x="770" y="212"><tspan fill="#89b4fa">"editor.fontFamily"</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#a6e3a1">"JetBrains Mono"</tspan><tspan fill="#9399b2">,</tspan></text>
+    <text x="770" y="244"><tspan fill="#89b4fa">"editor.fontLigatures"</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#fab387">true</tspan><tspan fill="#9399b2">,</tspan></text>
+    <text x="770" y="276"><tspan fill="#89b4fa">"editor.formatOnSave"</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#fab387">true</tspan><tspan fill="#9399b2">,</tspan><tspan fill="#cba6f7"> ▌</tspan></text>
+    <text x="746" y="308" fill="#9399b2">}</text>
+  </g>
+
+  <!-- subtle frame -->
+  <rect x="0.5" y="0.5" width="1279" height="359" fill="none" stroke="#313244" stroke-opacity="0.6"/>
+</svg>
